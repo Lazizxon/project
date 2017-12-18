@@ -10,7 +10,7 @@
     .left {color: black;
     font-size: 230%;
     padding: 0px 0px 0px 0px;
-margin-bottom: 0px;}
+    margin-bottom: 0px;}
     
      ul li {list-style-type: none;
          
@@ -26,6 +26,12 @@ margin-bottom: 0px;}
     .com {color: lightseagreen;}
 
     .com,.left {font-family:cursive,sans-serif;}
+/*Use a media query to add a breakpoint at 800px:*/
+@media (max-width:800px) {
+  .com,.left,.rightt {
+    width:100%; /*The width is 100%, when the viewport is 800px or smaller*/
+  }
+}
         
     .inside2 {background-color: #000;
         color: white;
