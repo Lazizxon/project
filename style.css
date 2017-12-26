@@ -1,46 +1,41 @@
-   html, body {
+html, body {
    margin: 0;
-   padding: 0; }
+   padding: 0; 
+   }
   
-   .inside1 {background-color: white;
-        width:100%;
-        height: 62px;
-        float: left;}
+.inside1 {background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;}
 
-    .left {color: black;
-    font-size: 230%;
-    padding: 0px 0px 0px 0px;
-    margin-bottom: 0px;}
+        .left{
+              height: 62px;
+              
+              color: black;
+              font-size: 230%;
+              width: 300px;
+               }
+        .left a {
+                color: black;
+                }
     
-     ul li {list-style-type: none;
-         
-            display: inline;}
+        .rightt {height: 62px;
+                 font-family: "Times New Roman";
+                 letter-spacing: 2.5px;
+                 width: 550px;}
+        .com {color: lightseagreen;}
+        .com,.left {font-family:cursive,sans-serif;}
 
-    .rightt {float: right;
-    padding: 10px;
-    font-size: 100%;
-    padding:15px 25px 10px 5px;
-    font-family: Times New Roman;
-    letter-spacing: 2.5px;}
-    
-    .com {color: lightseagreen;}
-
-    .com,.left {font-family:cursive,sans-serif;}
-/*Use a media query to add a breakpoint at 800px:*/
-@media (max-width:800px) {
-  .com,.left,.rightt {
-    width:100%; /*The width is 100%, when the viewport is 800px or smaller*/
-  }
-}
-        
-    .inside2 {background-color: #000;
+.inside2 {
+        background-color: #000;
         color: white;
         width:100%;
-        height: 45px;
-        margin: 0px;
-        float: left;}
+        float: left;
+}
+         ul li {list-style-type: none;
+                display: inline-block;}
  
-    .HTMLL {
+        .HTMLL {
         color: white;
         width: 60px;
         height: 25px;
@@ -48,7 +43,7 @@
         padding: 10px 10px 10px 10px;
         text-align: center;}
 
-    .CSSS {
+        .CSSS {
         color: white;
         width: 50px;
         height: 25px;
@@ -56,7 +51,7 @@
         padding: 10px;
         text-align: center; }
         
-    .JAVASCRIPTT {
+        .JAVASCRIPTT {
         color: white;
         width: 90px;
         height: 25px;
@@ -104,7 +99,7 @@
         padding: 10px;
         text-align: center;}
 
-    .MOREE {
+        .MOREE {
         color: white;
         width: 70px;
         height: 25px;
@@ -112,7 +107,7 @@
         padding: 10px;
         text-align: center;}
     
-    .REFERENCESS {
+        .REFERENCESS {
         color: white;
         width:105px;
         height: 25px;
@@ -122,7 +117,7 @@
            
         margin-left: 50px;}
 
-    .EXAMPLESS {
+        .EXAMPLESS {
         color: white;
         width: 90px;
         height: 25px;
@@ -130,8 +125,8 @@
         padding: 10px;
         text-align: center;}
 
-   a {text-decoration: none;
-    color: white;}
+        a {text-decoration: none;
+           color: white;}
                 
     .HTMLL,.CSSS:hover {background-color: #117bff;}
     .JAVASCRIPTT:hover {background-color: #117bff;}
@@ -143,42 +138,63 @@
     .MOREE:hover {background-color: #117bff;}
     .REFERENCESS:hover {background-color: #117bff;}
     .EXAMPLESS:hover {background-color: aqua;}
- ul,dir { -webkit-padding-start: 0;  }  
+     ul,dir { -webkit-padding-start: 0;  }  
 
-      .inside3 {background-color: white;
+.inside3 {background-color: white;
         color: black;
         width:100%;
         height: 100%;
         margin: 0px;
         float: left;
-        display: flex;}
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;}
    
-    .scrolll { color: white;
-        width:17%;
+    .scrolll { color: black;
+        padding: 10px;
+        width: 215px;
         height: 100%;
         margin: 0px;
-        float: left;}
-    
+        
+       display: inline-flex;
+       flex-direction: column;
+       justify-content: space-between;
+       border: 2px solid yellow;}
     .tanlov {font-size: 100%;
-    letter-spacing: 2px;}
- 
+             letter-spacing: 2px;}
     .main {padding: 10px;
-    /*margin-left: 190px;*/
-    width:68%;
-    height: 100%;
-        float: left;}
-    
+          width:600px;
+          height: 100%;
+          
+          display: inline-flex;
+          flex-direction: column;
+          justify-content: space-between;
+          border: 2px solid red;}
     .chap {color: black;
-    width:15%;
-    float: left;
-    padding: 10px;
-    /*margin-left: 800px;*/
-    height: 100%; }
+     width: 200px;
     
-    .previouss {margin-left: 0px;float: left;}
-               
-    .nextt {margin-left:60px;
-              float: right;} 
+     padding: 10px;
+     height: 100%; 
+     display: inline-flex;
+     flex-direction: column;
+     justify-content: space-between;
+     border: 2px solid blue;}
+    .birqator {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;  
+       }
+    button.previouss {
+        width: 80px; 
+        }         
+    button.nextt{
+        width: 80px;
+        } 
+ul, menu, dir {
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+
+
   
     
        
