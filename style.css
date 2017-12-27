@@ -15,7 +15,7 @@ html, body {
               font-size: 230%;
               width: 300px;
                }
-        .left a {
+        .left a {text-decoration: none;
                 color: black;
                 }
     
@@ -125,7 +125,7 @@ html, body {
         padding: 10px;
         text-align: center;}
 
-        a {text-decoration: none;
+        .inside2 a {text-decoration: none;
            color: white;}
                 
     .HTMLL,.CSSS:hover {background-color: #117bff;}
@@ -152,27 +152,31 @@ html, body {
    
     .scrolll { color: black;
         padding: 10px;
-        height: 100%;
+        height: 1000px;
         margin: 0px;
-        
-       display: inline-flex;
-       border: 2px solid yellow;
-       flex: 1 1 50px;}
-    .tanlov {font-size: 100%;
-             letter-spacing: 2px;}
+        border: 2px solid yellow;
+        flex: 1 1 170px;
+        overflow: auto;
+        letter-spacing: 2px;}
+.scrolll a {color: black;
+            text-decoration: none;
+            letter-spacing: 2px;}
+
+    /*.tanlov {font-size: 100%;
+             }*/
     .main {padding: 10px;
           height: 100%;
           
           display: inline-flex;
           flex-direction: column;
           border: 2px solid red;
-          flex: 4 4 50px;}
+          flex: 25 25 50px;}
     .chap {color: black;
-     padding: 10px;
-     height: 100%; 
-     display: inline-flex;
-     border: 2px solid blue;
-     flex: 1 1 50px;}
+          padding: 10px;
+          height: 100%; 
+          display: inline-flex;
+          border: 2px solid blue;
+          flex: 1 1 50px;}
     .birqator {
     display: flex;
     justify-content: space-between;
