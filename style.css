@@ -152,33 +152,27 @@ html, body {
    
     .scrolll { color: black;
         padding: 10px;
-        width: 215px;
         height: 100%;
         margin: 0px;
         
        display: inline-flex;
-       flex-direction: column;
-       justify-content: space-between;
-       border: 2px solid yellow;}
+       border: 2px solid yellow;
+       flex: 1 1 50px;}
     .tanlov {font-size: 100%;
              letter-spacing: 2px;}
     .main {padding: 10px;
-          width:600px;
           height: 100%;
           
           display: inline-flex;
           flex-direction: column;
-          justify-content: space-between;
-          border: 2px solid red;}
+          border: 2px solid red;
+          flex: 4 4 50px;}
     .chap {color: black;
-     width: 200px;
-    
      padding: 10px;
      height: 100%; 
      display: inline-flex;
-     flex-direction: column;
-     justify-content: space-between;
-     border: 2px solid blue;}
+     border: 2px solid blue;
+     flex: 1 1 50px;}
     .birqator {
     display: flex;
     justify-content: space-between;
